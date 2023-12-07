@@ -27,6 +27,9 @@ public class Account extends Calender {
     	else if (dailyUsage >= budgetWarningThreshold) {
     		System.out.println("주의: 하루 예산의 90% 이상을 사용하였습니다.");
     	}
+    	else {
+    		System.out.println("하루 예산 사용 중입니다.");
+    	}
     }
 
 }
