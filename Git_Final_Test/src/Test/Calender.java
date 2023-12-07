@@ -8,5 +8,7 @@ public class Calender {
 	    int currentDayOfMonth = calendar.get(Calendar.DAY_OF_MONTH);
 	    
 	    int daysInMonth = calendar.getActualMaximum(Calendar.DAY_OF_MONTH);	
+	 // 월 마지막 날인지 확인
+	    boolean isLastDayOfMonth = (currentDayOfMonth == daysInMonth);
 
 }
