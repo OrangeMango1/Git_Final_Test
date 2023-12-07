@@ -13,5 +13,8 @@ public class Calender {
 	 // 남은 일수 계산
 	    int daysRemaining = daysInMonth - currentDayOfMonth;
 	    
+	    public void showDaysRemaining() {
+	    	System.out.println("월에 남은 일수: " + daysRemaining + "일");
+	    }
 
 }
