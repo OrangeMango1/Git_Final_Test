@@ -31,5 +31,9 @@ public class Account extends Calender {
     		System.out.println("하루 예산 사용 중입니다.");
     	}
     }
+    public void showDailyBudget() {
+		System.out.println("하루 예산: " + dailyBudget + "원");
+	}
+    
 
 }
