@@ -10,6 +10,8 @@ public class Account extends Calender {
     double dailyBudget = (monthlyIncome - monthlyExpense) / daysRemaining;
     // 하루 예산 경고 기준 (90%)
     double budgetWarningThreshold = 0.9 * dailyBudget;
+    // 월 예산 사용량 계산
+    double monthlyBudgetUsage = monthlyIncome - monthlyExpense - dailyUsage;
     
     
 
