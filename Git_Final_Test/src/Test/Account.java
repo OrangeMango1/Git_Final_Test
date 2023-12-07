@@ -20,5 +20,10 @@ public class Account extends Calender {
         	System.out.println("이번 달 예산 사용량: " + monthlyBudgetUsage + "원");
     	}
     }
+    public void BudgetWarning() {
+    	if (dailyBudget < dailyUsage) {
+    		System.out.println("경고: 하루 예산을 초과하였습니다!");
+    	}
+    }
 
 }
