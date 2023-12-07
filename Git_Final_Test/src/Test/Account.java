@@ -13,6 +13,12 @@ public class Account extends Calender {
     // 월 예산 사용량 계산
     double monthlyBudgetUsage = monthlyIncome - monthlyExpense - dailyUsage;
     
-    
+    public void isLastDayOfMonth() {
+    	//월 마지막일 때 월 예산 사용량 알림
+    	if (isLastDayOfMonth) {
+    		System.out.println("오늘은 월 마지막 날입니다.");
+        	System.out.println("이번 달 예산 사용량: " + monthlyBudgetUsage + "원");
+    	}
+    }
 
 }
